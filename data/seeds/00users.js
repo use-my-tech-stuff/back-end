@@ -14,7 +14,7 @@ exports.seed = function(knex, Promise) {
                firstName: 'Tommy',
                lastName: 'Carr',
                email: 'tommy@gmail.com',
-               phone: 5104082587,
+               phone: 5104,
             },
             {
                userId: 2,
@@ -23,7 +23,7 @@ exports.seed = function(knex, Promise) {
                firstName: 'Linda',
                lastName: 'La',
                email: 'linda@gmail.com',
-               phone: 5102382227,
+               phone: 5102,
             },
             {
                userId: 3,
@@ -32,7 +32,7 @@ exports.seed = function(knex, Promise) {
                firstName: 'Jimmy',
                lastName: 'Butler',
                email: 'jimmy@gmail.com',
-               phone: 7072272555,
+               phone: 7072,
             },
             {
                userId: 4,
@@ -41,7 +41,7 @@ exports.seed = function(knex, Promise) {
                firstName: 'Nate',
                lastName: 'Boyette',
                email: 'nate@gmail.com',
-               phone: 5102332587,
+               phone: 5102,
             },
             {
                userId: 5,
@@ -50,7 +50,7 @@ exports.seed = function(knex, Promise) {
                firstName: 'Kayanna',
                lastName: 'Chandler',
                email: 'yanna@gmail.com',
-               phone: 4152335576,
+               phone: 4152,
             },
          ]);
       });
