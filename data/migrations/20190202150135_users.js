@@ -10,7 +10,7 @@ exports.up = function(knex, Promise) {
       tbl.string('email')
          .unique()
          .notNullable();
-      tbl.integer('phone', 10);
+      tbl.bigInteger('phone', 10);
    });
 };
 
